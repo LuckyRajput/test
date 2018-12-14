@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+}
+h1
+{
+	text-align:center;
+	color:#F00;
+	font-size:40px;
+	font-family:Bas Relief;
+
+}
+.gallary
+{
+	margin-left:30px;
+}
+.gallary img
+{
+	padding:5px;
+	filter:grayscale(100%);
+	transition:1s;
+}
+.gallary img:hover
+{
+	filter:grayscale(0);
+	transform:scale(1.1);
+}
+
+
+

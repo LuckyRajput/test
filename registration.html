@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-compatible" content="IE-edge"  />
+<meta name="viewport" content="width=device-width"  />
+<title>REGISTRTATION</title>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+<link type="text/css" rel="stylesheet" href="css/regiscss.css" />
+</head>
+<body style="background:url(images/regback1.jpg);background-repeat:no-repeat;background-size:cover;">
+<div class="container">
+ <div class="row" style="margin-left:170px;">
+  <div class="col-md-6 col-md-offset-3 form">
+   <form name="regisform" method="post" action="registrationph.php" onsubmit="return validateform()"><BR /><BR />
+    <div class="well">
+      <center><p class="regis">REGISTRATION</p></center>
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Name" class="form-control" style="border-radius:10px;" /><br />
+        <input type="fname" placeholder="Father Name" name="fname" class="form-control" style="border-radius:10px;"><br />
+        <input type="email" placeholder="Enter your Email" name="email" class="form-control" style="border-radius:10px;"  /><br />
+        <input type="password" placeholder="Passward" name="password" class="form-control" style="border-radius:10px;"/><br />
+        <input type="text" placeholder="Mobile Number" name="mobileno" class="form-control" style="border-radius:10px;"/><br />
+        <textarea name="address" id="textarea" cols="45" rows="5" placeholder="Enter Your Address" style="border-radius:10px;"></textarea>
+        <br /><br />
+       <input type="submit" value="Register" name="submit" class="btn btn-success" />
+       <input type="button" value="Cancle" class="btn btn-danger" onclick="msg()" />
+      </div>
+    </div>
+   </form>
+  </div>
+ </div>
+</div><!----End of contaner ----->
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+<script type="text/javascript" src="js/bootstrap.js" ></script>
+<script src="loginjs.js"></script>
+</body>
+</html>

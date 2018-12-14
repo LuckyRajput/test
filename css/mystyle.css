@@ -1,0 +1,49 @@
+.top_bar
+{
+	background:#60F;
+	padding:5px;
+}
+.contact_info
+{
+	color:white;
+	font-size:16px;
+}
+.for_logo
+{
+	font-family:Boggie;
+	color:skyblue;
+	font-size:70px;
+}
+.log_navigation
+{
+	padding:30px;
+}
+.my_menu
+{
+	margin-top:30px;
+}
+.my_menu .navbar-default
+{
+	background:none;
+	border:none;
+}
+
+.my_menu .navbar-nav .btn-primary:hover
+{
+	background:SeaGreen ;
+	color:white;
+	transition:.9s;
+}
+@media(max-width:1200px)
+{
+	.my_menu .pull-right
+	{
+		float:none !important;
+	}
+}
+.myfrd
+{
+	color:Navy;
+	font-family:Boggie;
+	font-size:40px;
+}
